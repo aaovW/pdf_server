@@ -7,7 +7,7 @@ const pdfService = require('../services/pdfService');
 
 
 const compile = async (templateName, data) => {
-	const filePath = path.join(__dirname, "templates", `registerReport.hbs`);
+	const filePath = path.join(__dirname, "templates", `registers.hbs`);
 	if (!filePath) {
 		throw new Error(`Could not find ${templateName}.hbs in generatePDF`);
 	}

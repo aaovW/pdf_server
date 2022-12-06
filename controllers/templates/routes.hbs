@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <title>Our Cool PDF Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  {{> Mystyle }}
+</head>
+<body class="mx-5">
+<div class="hr"> 5 Rutas</div>
+<div class="routes" > 
+    <div class="row" > # <div class="portada-subtitle" >Ruta: </div> 
+    <div style="padding-left:10px">Ruta mapasinge (# rutas)</div>
+    </div>
+    <div style="display: flex; justify-content: space-between; ">
+        <tb>
+            <div class="column">
+                <div class="row" >
+                    <div class="portada-subtitle" >Fecha: </div>
+                    <span> 9/10/2022</span>
+                </div>
+                <div class="row" >
+                    <div class="portada-subtitle" >Responsable:</div>
+                    <span>Ivan Duque</span>
+                </div>
+            </div>
+        </tb>
+        <tb>
+            <div class="column">
+                <div class="row">
+                    <div class="portada-subtitle">Empezó: </div>
+                    <span>07:00</span>
+                </div>
+                <div class="row">
+                    <div class="portada-subtitle">Culminó:</div>
+                    <span>20:22</span>
+                </div>
+            </div>
+        </tb>
+        <tb>
+            <div class="column">
+                <div class="row">
+                    <div class="portada-subtitle">Estado: </div>
+                    <span>Completa</span>
+                </div>
+                <div class="row">
+                    <div class="portada-subtitle">Tiempo en ruta:</div>
+                    <span>06h 34min</span>
+                </div>
+            </div>
+
+        </tb>
+    </div>
+
+</div>
+</body>
+</html>
