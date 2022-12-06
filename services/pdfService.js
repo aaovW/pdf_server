@@ -100,7 +100,7 @@ async function makeReport({type, method, content, imagesToReplace}) {
 
 function _generateRouteListReport({routeList, status, driver, date}) {
 	console.log('assaassa')
-	return generatePDF('portada', {'a': 'as'})
+	return generatePDF('registerReport', {'a': 'as'})
 
 }
 
